@@ -4,4 +4,4 @@ Automatically responds to CloudWatch alarms with appropriate fixes:
 - API Gateway errors → restart backends
 - RDS connection issues → kill queries
 
-Deploy as Lambda triggered by SNS from CloudWatch alarms.
+Deploy as Lambda function triggered by SNS from CloudWatch alarms.
