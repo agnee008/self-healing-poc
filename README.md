@@ -1,6 +1,6 @@
 Automatically responds to CloudWatch alarms with appropriate fixes:
 - DynamoDB throttling → increase capacity
-- Lambda timeouts → increase memory/timeout
+- Lambda timeouts → increase memory/timeout duration
 - API Gateway errors → restart backends
 - RDS connection issues → kill queries
 
